@@ -1,0 +1,72 @@
+{
+  "examId": "R1",
+  "title": "IELTS Academic Reading Mock Test 1",
+  "theme": "Education",
+  "version": "1.0",
+  "duration": 60,
+  "totalQuestions": 40,
+  "status": "Published",
+  "author": "LLAP Academic Team",
+  "academicMetadata": {
+    "cefrLevel": "B2-C1",
+    "targetAudience": "IELTS Academic Candidates",
+    "lastUpdated": "2026-07-25",
+    "validationStatus": "Complete",
+    "tags": [
+      "Education",
+      "Digital Learning",
+      "Personalised Education",
+      "Urban Environment",
+      "Acoustic Ecology",
+      "Digital Curation"
+    ]
+  },
+  "cmsStructure": {
+    "passages": [
+      "PASSAGE-01",
+      "PASSAGE-02",
+      "PASSAGE-03"
+    ],
+    "requiredFormat": "JSON"
+  },
+  "passagesMetadata": {
+    "PASSAGE-02": {
+      "examId": "IELTS-Academic-Mock-01",
+      "passageId": "R1-P2",
+      "passageNumber": 2,
+      "title": "The Acoustic Ecology of Modern Cities",
+      "subtitle": "How urban soundscapes influence human well-being and architectural design",
+      "difficulty": "Upper-B2-C1",
+      "recommendedTimeMinutes": 20,
+      "questionRange": {
+        "start": 14,
+        "end": 18
+      },
+      "questionCount": 13,
+      "primarySkill": "Reading",
+      "topic": "Urban Environment and Architecture",
+      "contentStatus": "Academic-QA-Approved",
+      "publicationStatus": "Technical-Integration-Ready",
+      "originalContent": true
+    },
+    "PASSAGE-03": {
+      "examId": "IELTS-Academic-Mock-01",
+      "passageId": "R1-P3",
+      "passageNumber": 3,
+      "title": "The Algorithm of Ambition",
+      "subtitle": "How digital curation alters human choice, creativity, and cognitive autonomy",
+      "difficulty": "Band 8-9 Academic",
+      "recommendedTimeMinutes": 20,
+      "questionRange": {
+        "start": 27,
+        "end": 40
+      },
+      "questionCount": 14,
+      "primarySkill": "Reading",
+      "topic": "Digital Curation and Cognitive Autonomy",
+      "contentStatus": "Academic-QA-Approved",
+      "publicationStatus": "Technical-Integration-Ready",
+      "originalContent": true
+    }
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "passageId": "R1-P3",
+  "passageNumber": 3,
+  "heading": "READING PASSAGE 3",
+  "instructionBanner": "You should spend about 20 minutes on Questions 27–40, which are based on Reading Passage 3 below.",
+  "title": "PASSAGE 3: The Algorithm of Ambition",
+  "subtitle": "How digital curation alters human choice, creativity, and cognitive autonomy",
+  "difficulty": "Band 8-9 Academic",
+  "recommendedTimeMinutes": 20,
+  "wordCount": 1050,
+  "text": "A\nThere has long been a comforting assumption that digital tools merely reflect human preferences. When recommendation algorithms organize our media feeds, stream our music, or curate our professional networks, they are ostensibly acting as mirrors of our pre-existing desires. Deceivingly neutral, these systems promise to streamline modern life by reducing the friction of choice. Yet, a growing vanguard of cognitive scientists and sociologists argue that algorithmic curation does much more than mirror taste; it actively shapes psychological ambition, alters creative trajectories, and subtly restricts the boundaries of human imagination.\n\nB\nThe primary mechanism driving this shift is the feedback loop. Modern platforms continuously track micro-behaviors—dwell time, click velocity, and fractional engagement metrics—to construct hyper-specific behavioral profiles. While this personalization can enhance operational efficiency, it frequently creates insular informational environments. As research teams led by Dr. Elena Vance at Oxford and Professor Marcus Thorne at the Massachusetts Institute of Technology suggest, individuals repeatedly exposed to optimized content experience a gradual narrowing of intellectual horizons. When systems prioritize immediate gratification and statistical certainty over serendipity, users are systematically shielded from cognitive friction—the very discomfort that often sparks genuine inquiry and conceptual breakthroughs.\n\nC\nConsider the implications for professional and artistic creativity. In fields ranging from literature to industrial design, creators are increasingly tempted to align their output with the predictive patterns of algorithmic distribution. If recommendation engines reward familiarity and rapid emotional resonance, creators face intense economic incentives to produce work that conforms to established templates rather than challenging them. Vance’s research indicates that contemporary artistic output has seen a measurable drift toward stylistic homogenization. Creators who rely on digital platforms for visibility find themselves caught in a paradox: to succeed within the architecture of automation, they must suppress the idiosyncratic impulses that historically defined originality.\n\nD\nThe dilemma of automated curation recalls historical philosophical debates regarding human agency and determinism. Just as 17th-century thinkers wrestled with whether human will was entirely governed by external stimuli or internal reflection, modern users grapple with the illusion of hyper-choice. Platforms present thousands of options, fostering a powerful sense of autonomy. However, because these options are pre-filtered by optimization algorithms designed to maximize retention, the actual diversity of consumed media often shrinks. Users consume more content than ever before, yet that content occupies a tightly circumscribed psychological ecosystem.\n\nE\nFurthermore, the economic architecture of platform capitalism heavily penalizes unpredictability. Corporations rely on engagement-driven advertising models that depend on predictable user retention. Consequently, corporate investment flows overwhelmingly toward systems that minimize user churn. This creates an environment where efficiency is weaponized against exploration. Even when platforms attempt to introduce randomized or diverse recommendations to counter echo chambers, these features are frequently subverted by user behavior, as individuals naturally retreat to the comforting embrace of the familiar.\n\nF\nWe live at a time when digital connectivity is ubiquitous, yet genuine intellectual divergence feels increasingly rare. Reclaiming cognitive autonomy will require more than individual vigilance; it demands a fundamental re-engineering of digital transparency. Future technological designs must consciously reintroduce structural unpredictability, valuing cognitive stretch over frictionless consumption. Without a deliberate effort to protect the messy, inefficient spaces where true originality is born, human ambition risks becoming merely an automated echo of what has already been done.",
+  "groups": [
+    {
+      "groupId": "R1-P3-Q27-30",
+      "questionType": "Multiple Choice",
+      "instructions": "Choose the correct letter, A, B, C or D. Write the correct letter in boxes 27–30 on your answer sheet.",
+      "questions": [
+        {
+          "questionId": 27,
+          "questionType": "Multiple Choice",
+          "text": "What point does the writer make about digital recommendation tools in the first paragraph?",
+          "options": [
+            "A. They are becoming increasingly less accurate at predicting human behavior.",
+            "B. They have a more active influence on human behavior than is commonly assumed.",
+            "C. They are primarily designed to eliminate all forms of human competition.",
+            "D. They reflect a growing global consensus regarding media consumption."
+          ],
+          "skill": "Reading",
+          "subSkill": "Inference",
+          "learningObjective": "Identify writer's opinion",
+          "difficulty": "Hard",
+          "blooms": "Analyze",
+          "lessonId": "R3-Lesson5",
+          "marks": 1
+        },
+        {
+          "questionId": 28,
+          "questionType": "Multiple Choice",
+          "text": "What does the writer say about the feedback loop in the second paragraph?",
+          "options": [
+            "A. It guarantees that users always find information that challenges their beliefs.",
+            "B. It eliminates the need for human participation in media distribution.",
+            "C. It restricts intellectual exposure by removing beneficial intellectual challenges.",
+            "D. It dramatically increases the amount of time people spend sleeping."
+          ],
+          "skill": "Reading",
+          "subSkill": "Inference",
+          "learningObjective": "Identify writer's opinion",
+          "difficulty": "Hard",
+          "blooms": "Analyze",
+          "lessonId": "R3-Lesson5",
+          "marks": 1
+        },
+        {
+          "questionId": 29,
+          "questionType": "Multiple Choice",
+          "text": "According to the third paragraph, why do modern creators face a professional dilemma?",
+          "options": [
+            "A. They struggle to understand how algorithms calculate user metrics.",
+            "B. They are forced to choose between financial viability and artistic originality.",
+            "C. They receive little to no financial compensation from digital platforms.",
+            "D. They lack access to the advanced tools required for digital distribution."
+          ],
+          "skill": "Reading",
+          "subSkill": "Detail Analysis",
+          "learningObjective": "Analyze professional dilemmas and causes",
+          "difficulty": "Hard",
+          "blooms": "Analyze",
+          "lessonId": "R3-Lesson6",
+          "marks": 1
+        },
+        {
+          "questionId": 30,
+          "questionType": "Multiple Choice",
+          "text": "What comparison does the writer make in the fourth paragraph?",
+          "options": [
+            "A. Between historical philosophical theories and the modern illusion of choice",
+            "B. Between 17th-century economic models and contemporary platform capitalism",
+            "C. Between the psychological resilience of past generations and modern users",
+            "D. Between physical isolation and digital connectivity in urban centers"
+          ],
+          "skill": "Reading",
+          "subSkill": "Comparison & Analogy",
+          "learningObjective": "Identify textual comparisons",
+          "difficulty": "Hard",
+          "blooms": "Evaluate",
+          "lessonId": "R3-Lesson7",
+          "marks": 1
+        }
+      ]
+    },
+    {
+      "groupId": "R1-P3-Q31-36",
+      "questionType": "Summary Completion (Options)",
+      "instructions": "Complete the summary using the list of phrases, A–J, below. Write the correct letter, A–J, in boxes 31–36 on your answer sheet.",
+      "phraseBank": [
+        {"id": "A", "text": "user churn"},
+        {"id": "B", "text": "cognitive stretch"},
+        {"id": "C", "text": "unpredictable innovation"},
+        {"id": "D", "text": "financial stability"},
+        {"id": "E", "text": "familiar comfort"},
+        {"id": "F", "text": "radical transparency"},
+        {"id": "G", "text": "creative originality"},
+        {"id": "H", "text": "behavioral tracking"},
+        {"id": "I", "text": "automated efficiency"},
+        {"id": "J", "text": "cognitive autonomy"}
+      ],
+      "questions": [
+        {
+          "questionId": 31,
+          "questionType": "Summary Completion (Options)",
+          "text": "Digital platforms operate within an economic framework that heavily discourages",
+          "phraseBank": [
+            {"id": "A", "text": "user churn"},
+            {"id": "B", "text": "cognitive stretch"},
+            {"id": "C", "text": "unpredictable innovation"},
+            {"id": "D", "text": "financial stability"},
+            {"id": "E", "text": "familiar comfort"},
+            {"id": "F", "text": "radical transparency"},
+            {"id": "G", "text": "creative originality"},
+            {"id": "H", "text": "behavioral tracking"},
+            {"id": "I", "text": "automated efficiency"},
+            {"id": "J", "text": "cognitive autonomy"}
+          ],
+          "skill": "Reading",
+          "subSkill": "Summary & Synthesis",
+          "learningObjective": "Synthesize key economic concepts from text",
+          "difficulty": "Hard",
+          "blooms": "Understand",
+          "lessonId": "R3-Lesson8",
+          "marks": 1
+        },
+        {
+          "questionId": 32,
+          "questionType": "Summary Completion (Options)",
+          "text": "This results in heavy financial investment in systems designed to minimize",
+          "phraseBank": [
+            {"id": "A", "text": "user churn"},
+            {"id": "B", "text": "cognitive stretch"},
+            {"id": "C", "text": "unpredictable innovation"},
+            {"id": "D", "text": "financial stability"},
+            {"id": "E", "text": "familiar comfort"},
+            {"id": "F", "text": "radical transparency"},
+            {"id": "G", "text": "creative originality"},
+            {"id": "H", "text": "behavioral tracking"},
+            {"id": "I", "text": "automated efficiency"},
+            {"id": "J", "text": "cognitive autonomy"}
+          ],
+          "skill": "Reading",
+          "subSkill": "Summary & Synthesis",
+          "learningObjective": "Locate specific economic drivers",
+          "difficulty": "Hard",
+          "blooms": "Understand",
+          "lessonId": "R3-Lesson8",
+          "marks": 1
+        },
+        {
+          "questionId": 33,
+          "questionType": "Summary Completion (Options)",
+          "text": "Even when platforms try to introduce features that promote diversity, these efforts are often undermined because users naturally seek out the",
+          "phraseBank": [
+            {"id": "A", "text": "user churn"},
+            {"id": "B", "text": "cognitive stretch"},
+            {"id": "C", "text": "unpredictable innovation"},
+            {"id": "D", "text": "financial stability"},
+            {"id": "E", "text": "familiar comfort"},
+            {"id": "F", "text": "radical transparency"},
+            {"id": "G", "text": "creative originality"},
+            {"id": "H", "text": "behavioral tracking"},
+            {"id": "I", "text": "automated efficiency"},
+            {"id": "J", "text": "cognitive autonomy"}
+          ],
+          "skill": "Reading",
+          "subSkill": "Summary & Synthesis",
+          "learningObjective": "Recognize user behavior patterns in summary",
+          "difficulty": "Hard",
+          "blooms": "Understand",
+          "lessonId": "R3-Lesson8",
+          "marks": 1
+        },
+        {
+          "questionId": 34,
+          "questionType": "Summary Completion (Options)",
+          "text": "To counteract these effects, future technology must value [...] rather than seamless consumption,",
+          "phraseBank": [
+            {"id": "A", "text": "user churn"},
+            {"id": "B", "text": "cognitive stretch"},
+            {"id": "C", "text": "unpredictable innovation"},
+            {"id": "D", "text": "financial stability"},
+            {"id": "E", "text": "familiar comfort"},
+            {"id": "F", "text": "radical transparency"},
+            {"id": "G", "text": "creative originality"},
+            {"id": "H", "text": "behavioral tracking"},
+            {"id": "I", "text": "automated efficiency"},
+            {"id": "J", "text": "cognitive autonomy"}
+          ],
+          "skill": "Reading",
+          "subSkill": "Summary & Synthesis",
+          "learningObjective": "Identify future design requirements",
+          "difficulty": "Hard",
+          "blooms": "Understand",
+          "lessonId": "R3-Lesson9",
+          "marks": 1
+        },
+        {
+          "questionId": 35,
+          "questionType": "Summary Completion (Options)",
+          "text": "protecting the spaces where true [...] can develop,",
+          "phraseBank": [
+            {"id": "A", "text": "user churn"},
+            {"id": "B", "text": "cognitive stretch"},
+            {"id": "C", "text": "unpredictable innovation"},
+            {"id": "D", "text": "financial stability"},
+            {"id": "E", "text": "familiar comfort"},
+            {"id": "F", "text": "radical transparency"},
+            {"id": "G", "text": "creative originality"},
+            {"id": "H", "text": "behavioral tracking"},
+            {"id": "I", "text": "automated efficiency"},
+            {"id": "J", "text": "cognitive autonomy"}
+          ],
+          "skill": "Reading",
+          "subSkill": "Summary & Synthesis",
+          "learningObjective": "Synthesize core creative outcomes",
+          "difficulty": "Hard",
+          "blooms": "Understand",
+          "lessonId": "R3-Lesson9",
+          "marks": 1
+        },
+        {
+          "questionId": 36,
+          "questionType": "Summary Completion (Options)",
+          "text": "thereby preserving human [...]",
+          "phraseBank": [
+            {"id": "A", "text": "user churn"},
+            {"id": "B", "text": "cognitive stretch"},
+            {"id": "C", "text": "unpredictable innovation"},
+            {"id": "D", "text": "financial stability"},
+            {"id": "E", "text": "familiar comfort"},
+            {"id": "F", "text": "radical transparency"},
+            {"id": "G", "text": "creative originality"},
+            {"id": "H", "text": "behavioral tracking"},
+            {"id": "I", "text": "automated efficiency"},
+            {"id": "J", "text": "cognitive autonomy"}
+          ],
+          "skill": "Reading",
+          "subSkill": "Summary & Synthesis",
+          "learningObjective": "Identify ultimate thematic conclusions",
+          "difficulty": "Hard",
+          "blooms": "Understand",
+          "lessonId": "R3-Lesson9",
+          "marks": 1
+        }
+      ]
+    },
+    {
+      "groupId": "R1-P3-Q37-40",
+      "questionType": "YES / NO / NOT GIVEN",
+      "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 3? Write YES, NO, or NOT GIVEN in boxes 37–40 on your answer sheet.",
+      "questions": [
+        {
+          "questionId": 37,
+          "questionType": "YES / NO / NOT GIVEN",
+          "text": "Algorithmic curation has successfully eliminated all forms of creative homogenization in modern art.",
+          "skill": "Reading",
+          "subSkill": "Claim Evaluation",
+          "learningObjective": "Evaluate writer claims against textual evidence",
+          "difficulty": "Hard",
+          "blooms": "Evaluate",
+          "lessonId": "R3-Lesson10",
+          "marks": 1
+        },
+        {
+          "questionId": 38,
+          "questionType": "YES / NO / NOT GIVEN",
+          "text": "The illusion of hyper-choice can make individuals feel as though they possess complete personal freedom.",
+          "skill": "Reading",
+          "subSkill": "Claim Evaluation",
+          "learningObjective": "Evaluate writer claims against textual evidence",
+          "difficulty": "Hard",
+          "blooms": "Evaluate",
+          "lessonId": "R3-Lesson10",
+          "marks": 1
+        },
+        {
+          "questionId": 39,
+          "questionType": "YES / NO / NOT GIVEN",
+          "text": "Most technology corporations are currently planning to abandon engagement-driven advertising models.",
+          "skill": "Reading",
+          "subSkill": "Claim Evaluation",
+          "learningObjective": "Identify unstated assumptions and claims",
+          "difficulty": "Hard",
+          "blooms": "Evaluate",
+          "lessonId": "R3-Lesson10",
+          "marks": 1
+        },
+        {
+          "questionId": 40,
+          "questionType": "YES / NO / NOT GIVEN",
+          "text": "Protecting spaces for original thought will require deliberate changes to future technological design.",
+          "skill": "Reading",
+          "subSkill": "Claim Evaluation",
+          "learningObjective": "Evaluate writer claims against textual evidence",
+          "difficulty": "Hard",
+          "blooms": "Evaluate",
+          "lessonId": "R3-Lesson10",
+          "marks": 1
+        }
+      ]
+    }
+  ]
+}

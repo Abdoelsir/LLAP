@@ -1,0 +1,27 @@
+{
+  "examId": "R1",
+  "validationDate": "2026-07-12",
+  "validator": "LLAP Technical QA",
+  "status": "PASS",
+  "structureValidation": {
+    "hasMetadata": true,
+    "hasInstructions": true,
+    "hasPassage1": true,
+    "hasPassage2": true,
+    "hasPassage3": true,
+    "hasAnswerKey": true,
+    "hasAnalytics": true
+  },
+  "contentValidation": {
+    "totalQuestions": 40,
+    "questionsMapped": true,
+    "metadataComplete": true,
+    "wordCountWithinRange": true,
+    "cefrAlignmentVerified": true
+  },
+  "technicalIntegrity": {
+    "jsonFormatValid": true,
+    "scoringLogicFunctional": true,
+    "metadataLinkedToUI": true
+  }
+}

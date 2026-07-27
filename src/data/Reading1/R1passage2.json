@@ -1,0 +1,156 @@
+{
+  "passageId": "R1-P2",
+  "passageNumber": 2,
+  "heading": "READING PASSAGE 2",
+  "instructionBanner": "You should spend about 20 minutes on Questions 14–26, which are based on Reading Passage 2 below.",
+  "title": "PASSAGE 2: The Acoustic Ecology of Modern Cities",
+  "subtitle": "How urban soundscapes influence human well-being and architectural design",
+  "text": "A\nFor decades, urban planners treated noise as an inevitable byproduct of economic growth. The roar of heavy machinery, the constant thrum of vehicular traffic, and the persistent hum of commercial air corridors were accepted as the baseline soundtrack of civilization. However, a growing body of research in environmental acoustics suggests that this sonic saturation carries a profound cost. Chronic exposure to urban noise pollution is no longer viewed merely as an annoyance; it is increasingly recognized as a significant public health hazard. Unlike visual pollution, which can be avoided by simply looking away, sound envelops the human body, triggering subconscious neurological responses even during sleep.\n\nB\nThe physiological consequences of living in a hyper-noisy environment are extensive. Persistent exposure to unwanted sound can activate the body's stress response, even when individuals are not consciously aware of the noise or are attempting to sleep. This may contribute to the release of stress hormones such as cortisol and adrenaline, which can affect blood pressure and heart rate. Over time, unremitting urban noise can contribute to sleep fragmentation, cognitive fatigue, and difficulties with attention and memory, particularly among developing children. Educational institutions located near busy airports or major highways have, in some studies, reported lower levels of academic performance, highlighting concerns about how persistent environmental noise may interfere with learning.\n\nC\nIn response to these concerns, scientists and urban designers are turning to the principles of \"acoustic ecology\"—a field that examines the relationship between living organisms and their sonic environment. Proponents of acoustic ecology argue that cities must move beyond merely installing soundproofing insulation or erecting massive concrete anti-noise barriers. Instead, urban spaces need to be actively curated to foster \"restorative soundscapes.\" This involves integrating natural acoustic elements, such as engineered water features, rustling vegetation, and dedicated wildlife corridors, which can help mask intrusive mechanical sounds and promote psychological recovery.\n\nD\nArchitectural innovation is playing a pivotal role in this sonic transformation. Forward-thinking cities across Europe and North America have begun implementing \"acoustic zoning,\" designating specific urban areas where restrictions on industrial activity and commercial vehicles may apply. Furthermore, building facades are increasingly being redesigned using porous, sound-absorbing materials rather than traditional reflective glass and steel. Green walls—vertical gardens anchored to building exteriors—can also contribute to environmental improvement, while their layers of vegetation may help scatter and absorb some sound before it reaches office windows or residential living spaces.\n\nE\nYet, reshaping the urban soundscape presents distinct economic and logistical challenges. Retrofitting historical metropolitan centres with modern acoustic-dampening materials requires substantial municipal investment. Moreover, commercial sectors often push back against restrictions on delivery hours or vehicle decibel limits, arguing that such regulations may reduce economic productivity. Compromise often takes the form of public-private partnerships, in which real-estate developers receive zoning incentives if they incorporate certified acoustic design elements into new high-rise residential complexes.\n\nF\nUltimately, the transition toward acoustically balanced cities requires a fundamental shift in how society values quietude. For generations, silence has sometimes been associated with economic stagnation, while loud, bustling streets have been celebrated as symbols of progress. As urban populations continue to grow, reclaiming greater control over the acoustic environment is becoming increasingly important. Designing cities that respect human needs for periods of quiet and recovery may help determine whether future urban centres remain places of chronic exhaustion or evolve into environments that better sustain human well-being.",
+  "groups": [
+    {
+      "groupId": "R1-P2-Q14-18",
+      "questionType": "Matching Information",
+      "instructions": "Reading Passage 2 has six paragraphs, A–F. Which paragraph contains the following information? Write the correct letter, A–F, in boxes 14–18 on your answer sheet.",
+      "questions": [
+        {
+          "questionId": 14,
+          "questionType": "Matching Information",
+          "text": "reference to the economic conflicts that arise when trying to regulate urban noise limits",
+          "options": ["A", "B", "C", "D", "E", "F"],
+          "skill": "Reading",
+          "subSkill": "Scanning",
+          "learningObjective": "Locate specific supporting information",
+          "difficulty": "Medium",
+          "marks": 1
+        },
+        {
+          "questionId": 15,
+          "questionType": "Matching Information",
+          "text": "an explanation of how sound affects the brain even when a person is resting",
+          "options": ["A", "B", "C", "D", "E", "F"],
+          "skill": "Reading",
+          "subSkill": "Scanning",
+          "learningObjective": "Identify explanations of cause and effect",
+          "difficulty": "Medium",
+          "marks": 1
+        },
+        {
+          "questionId": 16,
+          "questionType": "Matching Information",
+          "text": "a traditional misconception linking high noise levels with societal advancement",
+          "options": ["A", "B", "C", "D", "E", "F"],
+          "skill": "Reading",
+          "subSkill": "Identifying Main Ideas",
+          "learningObjective": "Recognize historical attitudes and beliefs",
+          "difficulty": "Medium",
+          "marks": 1
+        },
+        {
+          "questionId": 17,
+          "questionType": "Matching Information",
+          "text": "mention of a specific physical feature on buildings that helps scatter sound waves",
+          "options": ["A", "B", "C", "D", "E", "F"],
+          "skill": "Reading",
+          "subSkill": "Detail Recognition",
+          "learningObjective": "Locate specific architectural details",
+          "difficulty": "Medium",
+          "marks": 1
+        },
+        {
+          "questionId": 18,
+          "questionType": "Matching Information",
+          "text": "evidence showing that environmental noise can negatively impact academic performance",
+          "options": ["A", "B", "C", "D", "E", "F"],
+          "skill": "Reading",
+          "subSkill": "Evidence Recognition",
+          "learningObjective": "Identify evidence supporting a claim",
+          "difficulty": "Medium",
+          "marks": 1
+        }
+      ]
+    },
+    {
+      "groupId": "R1-P2-Q19-22",
+      "questionType": "Sentence Completion",
+      "instructions": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "questions": [
+        {
+          "questionId": 19,
+          "text": "Urban noise was historically accepted as a natural result of [BLANK]."
+        },
+        {
+          "questionId": 20,
+          "text": "To combat this, experts in acoustic ecology advocate for the creation of [BLANK] soundscapes using natural elements such as water features and vegetation."
+        },
+        {
+          "questionId": 21,
+          "text": "Modern architecture supports this approach by utilizing [BLANK] materials on building exteriors instead of reflective glass."
+        },
+        {
+          "questionId": 22,
+          "text": "Despite these innovations, transforming cities requires overcoming significant financial and [BLANK] challenges."
+        }
+      ]
+    },
+    {
+      "groupId": "R1-P2-Q23-24",
+      "questionType": "Multiple Choice",
+      "requiredSelections": 2,
+      "instructions": "Which TWO facts about urban noise are mentioned in Paragraph B?",
+      "questions": [
+        {
+          "questionId": 23,
+          "text": "Fact selection 1 for Paragraph B",
+          "options": [
+            "A. It causes immediate, permanent hearing loss in most urban residents.",
+            "B. It can contribute to physiological stress responses even when people are attempting to sleep.",
+            "C. It can have a particularly negative effect on children's attention, memory, and learning.",
+            "D. It forces educational institutions to relocate away from city centres.",
+            "E. It is primarily generated by commercial air traffic rather than road vehicles."
+          ]
+        },
+        {
+          "questionId": 24,
+          "text": "Fact selection 2 for Paragraph B",
+          "options": [
+            "A. It causes immediate, permanent hearing loss in most urban residents.",
+            "B. It can contribute to physiological stress responses even when people are attempting to sleep.",
+            "C. It can have a particularly negative effect on children's attention, memory, and learning.",
+            "D. It forces educational institutions to relocate away from city centres.",
+            "E. It is primarily generated by commercial air traffic rather than road vehicles."
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "R1-P2-Q25-26",
+      "questionType": "Multiple Choice",
+      "requiredSelections": 2,
+      "instructions": "Which TWO strategies for improving urban soundscapes are discussed in Paragraphs C and D?",
+      "questions": [
+        {
+          "questionId": 25,
+          "text": "Strategy selection 1 for Paragraphs C and D",
+          "options": [
+            "A. Completely banning all commercial transport within city boundaries.",
+            "B. Replacing concrete anti-noise barriers with large reflective glass walls.",
+            "C. Using green walls and vegetation as part of approaches to reducing the effects of urban sound.",
+            "D. Restricting industrial operations to underground facilities.",
+            "E. Implementing acoustic zoning with restrictions on certain industrial activities and commercial vehicles."
+          ]
+        },
+        {
+          "questionId": 26,
+          "text": "Strategy selection 2 for Paragraphs C and D",
+          "options": [
+            "A. Completely banning all commercial transport within city boundaries.",
+            "B. Replacing concrete anti-noise barriers with large reflective glass walls.",
+            "C. Using green walls and vegetation as part of approaches to reducing the effects of urban sound.",
+            "D. Restricting industrial operations to underground facilities.",
+            "E. Implementing acoustic zoning with restrictions on certain industrial activities and commercial vehicles."
+          ]
+        }
+      ]
+    }
+  ]
+}

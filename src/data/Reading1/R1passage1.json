@@ -1,0 +1,52 @@
+{
+  "passageId": "passage1",
+  "heading": "READING PASSAGE 1",
+  "instructionBanner": "You should spend about 20 minutes on Questions 1–13, which are based on Reading Passage 1 below.",
+  "title": "PASSAGE 1: The Future of Personalised Education",
+  "text": "Over the past century, education has evolved considerably. Traditional classrooms, where every student followed the same curriculum at the same pace, were once regarded as the most efficient way to teach large groups. Today, however, advances in educational research and digital technology have encouraged schools and universities to adopt more flexible approaches that recognise the individual needs of learners.\n\nOne of the most significant developments has been personalised learning. This approach recognises that students differ in their prior knowledge, learning speed, interests, and preferred methods of studying. Rather than expecting every learner to complete identical activities, personalised education seeks to adapt lessons to suit each individual's strengths while also providing additional support in weaker areas.\n\nDigital technology has accelerated this transformation. Learning management systems, educational applications, and artificial intelligence can now analyse a student's performance almost instantly. When a learner repeatedly struggles with a particular concept, the software can recommend extra exercises, explanatory videos, or simplified examples. Conversely, students who demonstrate rapid understanding can be offered more challenging activities without waiting for the rest of the class.\n\nResearch suggests that personalised learning may increase student motivation. Many learners become more engaged when they receive immediate feedback and feel that lessons are relevant to their own abilities. Furthermore, allowing students to progress at an appropriate pace can reduce anxiety, particularly for those who require additional practice before mastering new concepts.\n\nDespite these advantages, personalised education also presents challenges. Teachers must interpret large amounts of learning data and decide how best to respond to each student's progress. This responsibility requires additional training and careful planning. Technology can assist teachers, but it cannot replace professional judgement, empathy, or classroom experience.\n\nAnother concern involves educational equality. Schools with limited financial resources may struggle to purchase modern technology or provide reliable internet access. As a result, students from disadvantaged communities may have fewer opportunities to benefit from personalised learning systems than those attending better-funded institutions.\n\nPrivacy has become another important issue. Modern educational platforms collect considerable amounts of information about students, including assessment results, learning behaviour, and sometimes even communication records. Schools therefore have a responsibility to ensure that personal data is stored securely and used only for legitimate educational purposes. Many countries have introduced regulations governing how educational institutions collect, store, and process student information.\n\nExperts increasingly argue that successful personalised education depends on achieving an appropriate balance between technology and human interaction. Computers can analyse performance rapidly and identify learning patterns that would be difficult for teachers to detect manually. However, teachers remain essential for encouraging critical thinking, creativity, collaboration, and emotional development—qualities that are not easily measured by software.\n\nLooking ahead, many researchers believe personalised learning will continue to expand as artificial intelligence becomes more sophisticated. Future systems may predict learning difficulties before they occur, recommend individual study plans, and provide highly adaptive educational experiences. Nevertheless, educational specialists generally agree that technology should remain a tool that supports teachers rather than replacing them entirely.",
+  "wordCount": 780,
+  "difficulty": "B2",
+  "groups": [
+    {
+      "groupId": "G1",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 1? In boxes 1–5 on your answer sheet, write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+      "questionType": "True / False / Not Given",
+      "questions": [
+        { "questionId": 1, "text": "Traditional classrooms were originally designed to accommodate learners with different study speeds." },
+        { "questionId": 2, "text": "Personalised learning adjusts teaching according to individual student needs." },
+        { "questionId": 3, "text": "Artificial intelligence can completely replace teachers in personalised education." },
+        { "questionId": 4, "text": "Some schools may lack sufficient resources to implement personalised learning effectively." },
+        { "questionId": 5, "text": "The passage states that every country has identical laws regarding student data protection." }
+      ]
+    },
+    {
+      "groupId": "G2",
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "questionType": "Multiple Choice",
+      "questions": [
+        { "questionId": 6, "text": "According to the passage, personalised learning increases motivation because students...", "options": ["A. receive fewer assessments", "B. study entirely independently", "C. receive feedback suited to their learning", "D. spend less time studying"] },
+        { "questionId": 7, "text": "Teachers using personalised learning primarily need...", "options": ["A. fewer classroom resources", "B. additional training", "C. smaller classrooms", "D. fewer assessments"] },
+        { "questionId": 8, "text": "The writer believes technology should...", "options": ["A. replace teachers completely", "B. only be used in universities", "C. support teachers", "D. eliminate classroom discussions"] }
+      ]
+    },
+    {
+      "groupId": "G3",
+      "instructions": "Complete each sentence using NO MORE THAN TWO WORDS from the passage.",
+      "questionType": "Sentence Completion",
+      "questions": [
+        { "questionId": 9, "text": "Learning software can recommend extra __________ when students experience difficulty." },
+        { "questionId": 10, "text": "Personalised learning may reduce student __________." },
+        { "questionId": 11, "text": "Educational platforms must store student information __________." }
+      ]
+    },
+    {
+      "groupId": "G4",
+      "instructions": "Answer using NO MORE THAN THREE WORDS.",
+      "questionType": "Short Answer",
+      "questions": [
+        { "questionId": 12, "text": "What quality, besides creativity, do teachers help students develop?" },
+        { "questionId": 13, "text": "What technology is expected to become more advanced in future personalised learning?" }
+      ]
+    }
+  ]
+}

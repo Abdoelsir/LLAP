@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react';
+import { AuthProvider } from './context/AuthContext';
+import { ExamProvider } from './components/ExamContext';
+import { AppRouter } from './Router'; // Importing the consolidated router
+import { initSocket } from './services/socket'; // Importing our WebSocket manager
 
+/**
+ * App.js: The Central Application Host
+ * Initializes global services like WebSockets, state providers, and delegates routing.
+ */
 function App() {
+  // Initialize WebSocket connection gracefully on app mount with error suppression
+  useEffect(() => {
+    const socket = initSocket();
+    return () => {
+      if (socket && typeof socket.close === 'function') {
+        socket.close();
+      }
+    };
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AuthProvider>
+      <ExamProvider>
+        <AppRouter />
+      </ExamProvider>
+    </AuthProvider>
   );
 }
 
