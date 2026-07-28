@@ -11,8 +11,18 @@ export const initSocket = (url = 'ws://localhost:3000/ws') => {
       return socketInstance;
     }
 
+    // Dynamically fallback from localhost to current host production secure/insecure protocol if in production
+    const getDefaultWsUrl = () => {
+      const { protocol, hostname } = window.location;
+      if (hostname === 'localhost' || hostname === '127.0.0.1') {
+        return url;
+      }
+      const wsProtocol = protocol === 'https:' ? 'wss:' : 'ws:';
+      return `${wsProtocol}//${hostname}/ws`;
+    };
+
     // Attempt connection with fallback safety
-    const wsUrl = process.env.REACT_APP_WS_URL || url;
+    const wsUrl = process.env.REACT_APP_WS_URL || getDefaultWsUrl();
     socketInstance = new WebSocket(wsUrl);
 
     socketInstance.onopen = () => {
