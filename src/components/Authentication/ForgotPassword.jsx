@@ -2,34 +2,45 @@ import React, { useState } from 'react';
 
 /**
  * ForgotPassword Component: Professional, secure password recovery interface
- * matching the LLAP design system card layout and ensuring reset links route to personal emails.
+ * integrated with Netlify serverless function and Mailgun API.
  */
 export const ForgotPassword = ({ onBackToLogin }) => {
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!email.trim()) {
       setError('Please enter your registered personal email address.');
       return;
     }
 
-    // Validate if email exists in local registry or default accounts
-    const registeredUsers = JSON.parse(localStorage.getItem('llap_registered_users') || '[]');
-    const userExists = 
-      email === 'student@llap.com' || 
-      email === 'teacher@llap.com' || 
-      registeredUsers.some(u => u.email === email);
-
-    if (!userExists) {
-      setError('No account found associated with this personal email address.');
-      return;
-    }
-
+    setLoading(true);
     setError('');
-    setSubmitted(true);
+
+    try {
+      // Call the Netlify serverless backend function we deployed
+      const response = await fetch('/.netlify/functions/send-reset-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: email.trim() }),
+      });
+
+      const result = await response.json();
+
+      if (response.ok && result.success) {
+        setSubmitted(true);
+      } else {
+        setError(result.error || 'Failed to send password reset instructions. Please try again.');
+      }
+    } catch (err) {
+      console.error('Password reset network error:', err);
+      setError('A network error occurred. Please check your connection and try again.');
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -81,15 +92,17 @@ export const ForgotPassword = ({ onBackToLogin }) => {
                 placeholder="student@example.com"
                 required
                 aria-required="true"
+                disabled={loading}
                 className="w-full px-3.5 py-2.5 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-600 focus:border-blue-600 outline-none transition"
               />
             </div>
 
             <button 
               type="submit"
-              className="primary-button mt-2"
+              disabled={loading}
+              className="primary-button mt-2 disabled:opacity-50"
             >
-              Send Reset Link
+              {loading ? 'Sending Request...' : 'Send Reset Link'}
             </button>
 
             <div className="text-center pt-3 border-t border-gray-100">
