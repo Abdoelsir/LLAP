@@ -7,10 +7,17 @@ const mg = mailgun.client({
   key: process.env.MAILGUN_API_KEY,
 });
 
-export async function sendPasswordResetEmail(userEmail, resetToken) {
-  const resetLink = `https://llap-academy.com/reset-password?token=${resetToken}`;
+export async function handler(event, context) {
+  // Only allow POST requests
+  if (event.httpMethod !== 'POST') {
+    return { statusCode: 405, body: JSON.stringify({ error: 'Method Not Allowed' }) };
+  }
 
   try {
+    const { email: userEmail, resetToken } = JSON.parse(event.body);
+   const token = resetToken || Math.random().toString(36).substring(2);
+    const resetLink = `https://llap-academy.com/reset-password?token=${token}`;
+
     const data = await mg.messages.create('mg.llap-academy.com', {
       from: 'LLAP Academy <support@mg.llap-academy.com>',
       to: [userEmail],
@@ -27,9 +34,15 @@ export async function sendPasswordResetEmail(userEmail, resetToken) {
       `,
     });
 
-    return { success: true, data };
+    return {
+      statusCode: 200,
+      body: JSON.stringify({ success: true, data }),
+    };
   } catch (error) {
     console.error('Mailgun email dispatch error:', error);
-    return { success: false, error: error.message };
+    return {
+      statusCode: 500,
+      body: JSON.stringify({ success: false, error: error.message }),
+    };
   }
 }
