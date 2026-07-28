@@ -1,7 +1,6 @@
-const API_URL = 'https://api.yourdomain.com/api';
-
 /**
- * AuthService: Manages user authentication, role validation, and local registration persistence.
+ * AuthService: Manages user authentication, role validation, and local registration persistence
+ * completely self-contained to prevent external network or SSL errors in frontend deployments.
  */
 export const AuthService = {
   /**
@@ -46,31 +45,11 @@ export const AuthService = {
       console.warn('Local registry check skipped:', localErr);
     }
 
-    // 4. Production Flow: Communicate with backend API if local match not found
-    try {
-      const response = await fetch(`${API_URL}/login`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ username, password }),
-      });
-
-      if (!response.ok) {
-        throw new Error('Authentication failed');
-      }
-
-      const data = await response.json();
-      
-      return { 
-        success: true, 
-        user: {
-          username: data.user.username,
-          role: data.user.role // 'student' or 'teacher'
-        } 
-      };
-    } catch (error) {
-      console.error('Login error:', error);
-      return { success: false, message: "Invalid credentials or server error" };
-    }
+    // 4. Controlled Failure Response (No network calls to invalid domains)
+    return { 
+      success: false, 
+      message: "Invalid email/username or password. Please check your credentials or create a student account." 
+    };
   },
 
   /**
