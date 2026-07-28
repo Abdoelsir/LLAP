@@ -8,14 +8,16 @@ const mg = mailgun.client({
 });
 
 export async function handler(event, context) {
-  // Only allow POST requests
   if (event.httpMethod !== 'POST') {
-    return { statusCode: 405, body: JSON.stringify({ error: 'Method Not Allowed' }) };
+    return { 
+      statusCode: 405, 
+      body: JSON.stringify({ error: 'Method Not Allowed' }) 
+    };
   }
 
   try {
     const { email: userEmail, resetToken } = JSON.parse(event.body);
-   const token = resetToken || Math.random().toString(36).substring(2);
+    const token = resetToken || Math.random().toString(36).substring(2);
     const resetLink = `https://llap-academy.com/reset-password?token=${token}`;
 
     const data = await mg.messages.create('mg.llap-academy.com', {
